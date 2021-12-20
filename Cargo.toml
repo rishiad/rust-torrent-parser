@@ -1,0 +1,17 @@
+[package]
+name = "torrent_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_bencode = "0.2.3"
+serde_bencoded = "0.3.1"
+serde = "1.0.132"
+serde_derive = "1.0"
+serde_bytes = "0.11.5"
+atty = "0.2"
+bytesize = "1.0"
+rust-crypto = "0.2.36"
+sha-1 = "0.9"
